@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-padding-top: 40px;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 98dvh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;  
+}
+
+.menu-container {
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #37457152;
+    border-radius: 20px;
+}
+
+.menu > li {
+    list-style: none;
+}
+
+.menu > li > a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    font-style: 1.2em;
+    font-weight: bold;
+}
+
+.menu > li > a:hover {
+    color: #0a66c2;
+    transform: scale(1.05);
+}
+
+.content {
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000055;
+    background-color: #ffffffc4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content > p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.content > h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+}
+
+#home {
+    gap: 40px;
+    padding-top: 130px;
+}
+
+#home > h1 {
+    text-align: center;
+
+}
+
+#causas {
+    align-items: flex-end;
+    background-image: url(https://e3.365dm.com/23/06/2048x1152/skynews-aedes-disease-illness_6196002.jpg?20231211030926);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prevencao {
+    align-items: flex-end;
+    background-image: url(https://www.jornalopcao.com.br/wp-content/uploads/2015/07/dengue2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+}
